@@ -49,6 +49,17 @@ export function saveUsers(users: User[]) {
 }
 
 /**
+ * Check if a file from a specific repository has already been indexed
+ */
+export function isFileIndexed(filePath: string, repo: string): boolean {
+  const existingUsers = readUsers();
+  
+  return existingUsers.some(
+    (user) => user.filePath === filePath && user.repo === repo
+  );
+}
+
+/**
  * Add new users to the data file
  */
 export function addUsers(newUsers: User[]) {
