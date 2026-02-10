@@ -16,6 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Vouch Monitor - GitHub User Trust System",
   description: "GitHub user trust monitoring based on explicit vouch/denounce declarations. Scan repositories for .td files to identify vouched and denounced users.",
+  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
 };
 
 export default function RootLayout({
