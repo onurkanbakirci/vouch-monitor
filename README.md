@@ -2,7 +2,7 @@
 
 A GitHub user trust monitoring system based on explicit vouch/denounce declarations from .td files.
 
-![Vouch Monitor UI](./screenshot.png)
+![Vouch Monitor UI](./assets/screen-1.png)
 
 ## API
 
